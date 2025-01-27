@@ -1,0 +1,1 @@
+This paper analyzes how victim demographics and other factors predict police case suspensions using data from Dallas, Texas. Drawing on a large dataset of police incident reports, this paper examines patterns in case outcomes using victim race, ethnicity, location, incident type, and reporting area as predictors.
