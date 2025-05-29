@@ -35,8 +35,3 @@ To investigate and model the factors influencing why certain cases are marked as
 - The model struggled to recall non-suspended cases due to class imbalance.
 ```
 
-## 🚀 Future Work
-- Address class imbalance using techniques like SMOTE or class weighting.
-- Incorporate temporal patterns more explicitly.
-- Explore fairness-aware ML techniques to mitigate bias.
-
