@@ -27,11 +27,18 @@ To investigate and model the factors influencing why certain cases are marked as
 - **Libraries:** pandas, sklearn, matplotlib, seaborn
 - **Models:** Decision Tree, Random Forest Classifier
 - **EDA:** Gender distribution, weapon types, temporal trends
-- **Preprocessing:** Encoding categorical variables, handling missing data, scaling
+
+### Preprocessing Steps
+- **Missing Value Handling:** Rows with missing target or critical features were dropped.
+- **Encoding:** Categorical variables were label-encoded or one-hot encoded depending on their cardinality.
+- **Datetime Parsing:** Dates were converted into separate features: year, month, and day of the week.
+- **Class Imbalance:** Identified and documented for future handling with rebalancing methods.
+- **Feature Selection:** Selected features based on importance in tree-based models and domain relevance.
 
 ## 🧠 Insights
 - Operational and geographic factors like incident type and reporting area strongly influence case suspensions.
 - Demographic variables like race are less dominant but still significant, pointing to possible systemic disparities.
 - The model struggled to recall non-suspended cases due to class imbalance.
-```
+
+
 
